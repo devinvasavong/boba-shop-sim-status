@@ -1,5 +1,5 @@
 {
-  "status": "maintenance",
-  "message": "System update in progress",
-  "updatedAt": "2025-12-19T03:27:47.429Z"
+  "status": "degraded",
+  "message": "Degraded performance; Roblox database APIs are failing.",
+  "updatedAt": "2025-12-19T04:37:40.357Z"
 }
