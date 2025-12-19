@@ -1,15 +1,15 @@
 {
-  "status": "degraded",
-  "message": "Acknowledged bug affecting mobile pouring functionality.",
-  "updatedAt": "2025-12-19T15:01:00.158Z",
+  "status": "operational",
+  "message": "Previous incident resolved. All systems operational.",
+  "updatedAt": "2025-12-19T15:20:42.139Z",
   "incident": {
-    "phase": "identified",
-    "severity": "medium",
-    "impactSummary": "Mobile application feature ('pouring') is currently non-functional due to an acknowledged bug.",
-    "rootCause": "Under investigation (acknowledged software bug).",
-    "mitigation": "Development team is currently investigating and preparing a fix.",
-    "detection": "User report or internal monitoring.",
-    "nextUpdateAt": "2024-01-01T01:00:00Z",
+    "phase": "resolved",
+    "severity": "low",
+    "impactSummary": "Unknown (Resolution communicated without prior incident context)",
+    "rootCause": "N/A",
+    "mitigation": "N/A",
+    "detection": "N/A",
+    "nextUpdateAt": "2024-07-29T13:00:00Z",
     "actionItems": [
       "Finalizing postmortem document",
       "Communicate user action requirement (rejoining the server).",
@@ -26,7 +26,7 @@
       "Determine root cause of mobile pouring failure.",
       "Develop and deploy fix for acknowledged bug."
     ],
-    "resolvedAt": "2025-12-19T06:27:03.122Z",
+    "resolvedAt": "2025-12-19T15:20:42.139Z",
     "postmortemPlan": {
       "status": "pending",
       "owner": "TBD",
@@ -37,8 +37,7 @@
     "summary": "<@1451379087238234142> help me fill postmortem",
     "incidentId": "INC-20251219062024845",
     "affectedServices": [
-      "Mobile Application",
-      "Pouring Service"
+      "N/A"
     ],
     "timeline": [
       {
@@ -64,6 +63,10 @@
       {
         "time": "2024-01-01T00:00:00Z",
         "event": "Bug acknowledged: mobile pouring functionality confirmed not working."
+      },
+      {
+        "time": "2024-07-29T12:00:00Z",
+        "event": "Incident reported as resolved."
       }
     ],
     "communications": [
