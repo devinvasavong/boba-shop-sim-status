@@ -1,15 +1,15 @@
 {
   "status": "degraded",
-  "message": "External API dependency failure (Roblox API) impacting functionality.",
-  "updatedAt": "2025-12-19T06:24:31.957Z",
+  "message": "System stability is degraded following a necessary rollback. Users must rejoin the server to restore access to all data.",
+  "updatedAt": "2025-12-19T06:24:49.829Z",
   "incident": {
-    "phase": "active",
-    "severity": "high",
-    "impactSummary": "Services requiring interaction with the Roblox API are currently experiencing errors or outages.",
-    "rootCause": "External dependency failure (Roblox API reported being down).",
-    "mitigation": "Monitoring external dependency status and implementing temporary caching/fallback where possible.",
-    "detection": "Automated dependency monitoring alert / User reports.",
-    "nextUpdateAt": "2024-05-27T10:35:00Z",
+    "phase": "monitoring",
+    "severity": "medium",
+    "impactSummary": "Users must manually rejoin the server to regain access to previous session data. Temporary access disruption.",
+    "rootCause": "A recent fix or deployment introduced instability, necessitating an immediate rollback to the previous stable state.",
+    "mitigation": "Rollback to the stable version has been successfully deployed. Users instructed to reconnect.",
+    "detection": "Internal system monitoring and subsequent required mitigation (rollback).",
+    "nextUpdateAt": "2023-10-27T10:30:00Z",
     "actionItems": [
       "Finalizing postmortem document",
       "Communicate user action requirement (rejoining the server).",
@@ -20,23 +20,26 @@
       "Track user reporting and ensure data access is fully restored upon user rejoin.",
       "Monitor Roblox status page for resolution.",
       "Quantify total impact on downstream internal services.",
-      "Explore alternative data sources/caching methods."
+      "Explore alternative data sources/caching methods.",
+      "Confirm stability of the rolled-back environment.",
+      "Monitor user rejoin rate and confirm restoration of data access."
     ],
     "resolvedAt": "2025-12-19T06:19:59.112Z",
     "postmortemPlan": {
       "status": "pending",
-      "owner": "Incident Commander",
-      "dueDate": "2024-06-03T00:00:00Z",
-      "summary": "Analyze impact of external dependency failure and review resilience strategies.",
+      "owner": "SRE Team",
+      "dueDate": "2023-11-03T17:00:00Z",
+      "summary": "Investigate the root cause of the fix failure/instability that required the rollback.",
       "actionItems": [
-        "Review external dependency failure handling procedures.",
-        "Implement improved circuit breaker or throttling for Roblox API."
+        "Review changes introduced by the failed fix.",
+        "Improve validation testing prior to deployment."
       ]
     },
     "summary": "<@1451379087238234142> help me fill postmortem",
     "incidentId": "INC-20251219062024845",
     "affectedServices": [
-      "Services reliant on Roblox API"
+      "User Session Management",
+      "Main Application Server"
     ],
     "timeline": [
       {
@@ -54,6 +57,10 @@
       {
         "time": "2024-05-27T10:00:00Z",
         "event": "Report received that Roblox API dependency was unavailable."
+      },
+      {
+        "time": "2023-10-27T10:00:00Z",
+        "event": "Rollback procedure initiated and completed."
       }
     ],
     "communications": [
@@ -68,6 +75,10 @@
       {
         "time": "2024-05-27T10:05:00Z",
         "message": "Update received confirming Roblox API dependency failure as the primary issue."
+      },
+      {
+        "time": "2023-10-27T10:00:00Z",
+        "message": "set status to degraded Rollback has been pushed following a fix. Users must rejoin the server to restore access to old data."
       }
     ]
   }
