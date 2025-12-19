@@ -1,5 +1,5 @@
 {
-  "status": "degraded",
-  "message": "We are investigating reports of instability affecting user transaction functionality. Service performance may be impacted while we resolve the issue.",
-  "updatedAt": "2025-12-19T02:19:50.231Z"
+  "status": "operational",
+  "message": "Issue resolved",
+  "updatedAt": "2025-12-19T02:24:07.600Z"
 }
