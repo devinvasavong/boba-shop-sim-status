@@ -1,15 +1,15 @@
 {
-  "status": "degraded",
-  "message": "System stability is degraded following a necessary rollback. Users must rejoin the server to restore access to all data.",
-  "updatedAt": "2025-12-19T06:24:49.829Z",
+  "status": "operational",
+  "message": "All systems operational.",
+  "updatedAt": "2025-12-19T06:27:03.121Z",
   "incident": {
-    "phase": "monitoring",
-    "severity": "medium",
-    "impactSummary": "Users must manually rejoin the server to regain access to previous session data. Temporary access disruption.",
-    "rootCause": "A recent fix or deployment introduced instability, necessitating an immediate rollback to the previous stable state.",
-    "mitigation": "Rollback to the stable version has been successfully deployed. Users instructed to reconnect.",
-    "detection": "Internal system monitoring and subsequent required mitigation (rollback).",
-    "nextUpdateAt": "2023-10-27T10:30:00Z",
+    "phase": "resolved",
+    "severity": "low",
+    "impactSummary": "No current impact reported.",
+    "rootCause": "N/A (System operational)",
+    "mitigation": "N/A",
+    "detection": "Self-report confirmation",
+    "nextUpdateAt": "2024-07-30T12:00:00Z",
     "actionItems": [
       "Finalizing postmortem document",
       "Communicate user action requirement (rejoining the server).",
@@ -24,7 +24,7 @@
       "Confirm stability of the rolled-back environment.",
       "Monitor user rejoin rate and confirm restoration of data access."
     ],
-    "resolvedAt": "2025-12-19T06:19:59.112Z",
+    "resolvedAt": "2025-12-19T06:27:03.122Z",
     "postmortemPlan": {
       "status": "pending",
       "owner": "SRE Team",
