@@ -1,15 +1,15 @@
 {
-  "status": "operational",
-  "message": "Previous incident resolved. All systems operational.",
-  "updatedAt": "2025-12-19T15:20:42.139Z",
+  "status": "degraded",
+  "message": "Investigating bug affecting internal 'Galaxy Milk Tea Shaker' process.",
+  "updatedAt": "2025-12-19T16:03:13.998Z",
   "incident": {
-    "phase": "resolved",
-    "severity": "low",
-    "impactSummary": "Unknown (Resolution communicated without prior incident context)",
-    "rootCause": "N/A",
-    "mitigation": "N/A",
-    "detection": "N/A",
-    "nextUpdateAt": "2024-07-29T13:00:00Z",
+    "phase": "investigating",
+    "severity": "medium",
+    "impactSummary": "Potential errors or performance degradation related to the 'Galaxy Milk Tea Shaker' component.",
+    "rootCause": "Undetermined; currently investigating internal bug.",
+    "mitigation": "Investigation ongoing to identify and patch the bug.",
+    "detection": "Reported internally or flagged by automated monitoring.",
+    "nextUpdateAt": "2024-07-30T10:30:00Z",
     "actionItems": [
       "Finalizing postmortem document",
       "Communicate user action requirement (rejoining the server).",
@@ -24,20 +24,23 @@
       "Confirm stability of the rolled-back environment.",
       "Monitor user rejoin rate and confirm restoration of data access.",
       "Determine root cause of mobile pouring failure.",
-      "Develop and deploy fix for acknowledged bug."
+      "Develop and deploy fix for acknowledged bug.",
+      "Reproduce the bug",
+      "Isolate the affected code path",
+      "Identify root cause"
     ],
     "resolvedAt": "2025-12-19T15:20:42.139Z",
     "postmortemPlan": {
       "status": "pending",
-      "owner": "TBD",
+      "owner": "",
       "dueDate": "",
-      "summary": "Postmortem to investigate the underlying cause of the mobile pouring bug and implement preventative measures.",
+      "summary": "",
       "actionItems": []
     },
     "summary": "<@1451379087238234142> help me fill postmortem",
     "incidentId": "INC-20251219062024845",
     "affectedServices": [
-      "N/A"
+      "Galaxy Milk Tea Shaker"
     ],
     "timeline": [
       {
@@ -67,6 +70,10 @@
       {
         "time": "2024-07-29T12:00:00Z",
         "event": "Incident reported as resolved."
+      },
+      {
+        "time": "2024-07-30T10:00:00Z",
+        "event": "Internal bug reported and investigation started."
       }
     ],
     "communications": [
@@ -89,6 +96,10 @@
       {
         "time": "2024-01-01T00:00:00Z",
         "message": "<@1451379087238234142> acknowledged bug mobile pouring not working"
+      },
+      {
+        "time": "2024-07-30T10:00:00Z",
+        "message": "investigating bug with galaxy milk tea shaker"
       }
     ]
   }
