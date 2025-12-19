@@ -1,5 +1,5 @@
 {
-  "status": "operational",
-  "message": "Service fixed and operational following rollback. User action (rejoin server) is required to access old data.",
-  "updatedAt": "2025-12-19T05:25:17.155Z"
+  "status": "degraded",
+  "message": "Rollback has been pushed following a fix. Users must rejoin the server to restore access to old data.",
+  "updatedAt": "2025-12-19T05:28:45.313Z"
 }
