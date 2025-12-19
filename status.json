@@ -1,5 +1,5 @@
 {
-  "status": "degraded",
-  "message": "Degraded performance; Roblox database APIs are failing.",
-  "updatedAt": "2025-12-19T04:37:40.357Z"
+  "status": "outage",
+  "message": "Critical database error.",
+  "updatedAt": "2025-12-19T04:53:22.163Z"
 }
