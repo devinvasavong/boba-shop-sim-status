@@ -1,5 +1,5 @@
 {
-  "status": "maintenance",
-  "message": "Scheduled maintenance in progress.",
-  "updatedAt": "2025-12-19T01:44:21.917Z"
+  "status": "degraded",
+  "message": "We are investigating reports of instability affecting user transaction functionality. Service performance may be impacted while we resolve the issue.",
+  "updatedAt": "2025-12-19T02:19:50.231Z"
 }
