@@ -1,5 +1,28 @@
 {
-  "status": "degraded",
-  "message": "Rollback has been pushed following a fix. Users must rejoin the server to restore access to old data.",
-  "updatedAt": "2025-12-19T05:28:45.313Z"
+  "status": "operational",
+  "message": "All systems operational. Postmortem documentation for a prior incident is currently being drafted.",
+  "updatedAt": "2025-12-19T06:19:59.106Z",
+  "incident": {
+    "phase": "resolved",
+    "severity": "medium",
+    "impactSummary": "Details regarding prior incident impact are not provided in the current message.",
+    "rootCause": "Unknown (Postmortem in progress)",
+    "mitigation": "Unknown (Postmortem in progress)",
+    "detection": "Unknown (Postmortem in progress)",
+    "nextUpdateAt": "ISO8601_PLACEHOLDER",
+    "actionItems": [
+      "Finalizing postmortem document"
+    ],
+    "resolvedAt": "2025-12-19T06:19:59.112Z",
+    "postmortemPlan": {
+      "status": "in_progress",
+      "owner": "Unknown",
+      "dueDate": "ISO8601_PLACEHOLDER",
+      "summary": "Actively compiling and reviewing postmortem documentation for a recently resolved incident.",
+      "actionItems": [
+        "Aiding in filling out postmortem details"
+      ]
+    },
+    "summary": "<@1451379087238234142> help me fill postmortem"
+  }
 }
