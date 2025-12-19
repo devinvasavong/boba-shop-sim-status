@@ -1,38 +1,44 @@
 {
   "status": "degraded",
-  "message": "System running in degraded mode following required rollback. Users must rejoin the server to restore full data access.",
-  "updatedAt": "2025-12-19T06:20:24.845Z",
+  "message": "User data saving and loading functionality is currently unavailable due to external API dependency failure.",
+  "updatedAt": "2025-12-19T06:23:01.313Z",
   "incident": {
     "phase": "active",
-    "severity": "medium",
-    "impactSummary": "Users must manually rejoin the server to restore access to previous data states and ensure continuity.",
-    "rootCause": "A recent deployment or fix required an immediate system rollback.",
-    "mitigation": "Service rollback successfully deployed to stabilize the environment.",
-    "detection": "Internal reports triggered by failure of previous fix.",
-    "nextUpdateAt": "2023-10-27T11:00:00Z",
+    "severity": "critical",
+    "impactSummary": "Users are unable to save or load any persistent data.",
+    "rootCause": "Outage in the external Roblox API dependency.",
+    "mitigation": "Monitoring external status and escalating internally.",
+    "detection": "API error rate monitoring and user reports.",
+    "nextUpdateAt": "2024-05-15T11:00:00Z",
     "actionItems": [
       "Finalizing postmortem document",
       "Communicate user action requirement (rejoining the server).",
-      "Monitor user connection and data synchronization rates."
+      "Monitor user connection and data synchronization rates.",
+      "Monitor status of external Roblox API",
+      "Investigate potential temporary data caching solutions"
     ],
     "resolvedAt": "2025-12-19T06:19:59.112Z",
     "postmortemPlan": {
       "status": "pending",
-      "owner": "TBD",
-      "dueDate": "TBD",
-      "summary": "Analyze the cause of the initial fix failure and the impact/necessity of the resulting user-required rollback.",
+      "owner": "",
+      "dueDate": "2024-05-22T00:00:00Z",
+      "summary": "Analyze dependency failure resiliency and implement strategies for external API unavailability.",
       "actionItems": []
     },
     "summary": "<@1451379087238234142> help me fill postmortem",
     "incidentId": "INC-20251219062024845",
     "affectedServices": [
-      "Core Server Access",
-      "Data Synchronization"
+      "Data Persistence",
+      "External API Integration"
     ],
     "timeline": [
       {
         "time": "2023-10-27T10:00:00Z",
         "event": "System rollback pushed following unsuccessful fix attempt."
+      },
+      {
+        "time": "2024-05-15T10:00:00Z",
+        "event": "Confirmed root cause: External Roblox API down, preventing data access."
       }
     ],
     "communications": [
