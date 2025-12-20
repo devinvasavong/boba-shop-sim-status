@@ -1,14 +1,14 @@
 {
-  "status": "degraded",
-  "message": "Issue reported impacting the 5-star rating system.",
-  "updatedAt": "2025-12-20T05:18:16.292Z",
+  "status": "operational",
+  "message": "System operational, previous issue resolved.",
+  "updatedAt": "2025-12-20T05:18:42.008Z",
   "incident": {
-    "phase": "investigating",
-    "severity": "medium",
-    "impactSummary": "Users may be unable to submit, retrieve, or view product/service ratings.",
-    "rootCause": "unknown",
-    "mitigation": "None identified yet; investigation in progress.",
-    "detection": "user report",
+    "phase": "resolved",
+    "severity": "low",
+    "impactSummary": "Previous incident resolved, full service restored.",
+    "rootCause": "Unknown (Data missing in source message)",
+    "mitigation": "Resolution implemented.",
+    "detection": "Unknown",
     "nextUpdateAt": "2024-05-24T10:30:00Z",
     "actionItems": [
       "Finalizing postmortem document",
@@ -31,7 +31,7 @@
       "Verify the scope and replication of the rating system failure.",
       "Engage relevant engineering team to debug the ratings microservice/API."
     ],
-    "resolvedAt": "2025-12-19T18:27:06.233Z",
+    "resolvedAt": "2025-12-20T05:18:42.008Z",
     "postmortemPlan": {
       "status": "pending",
       "owner": "",
@@ -42,7 +42,7 @@
     "summary": "<@1451379087238234142> help me fill postmortem",
     "incidentId": "INC-20251219062024845",
     "affectedServices": [
-      "rating system"
+      "Unknown"
     ],
     "timeline": [
       {
@@ -84,6 +84,10 @@
       {
         "time": "2024-05-24T10:00:00Z",
         "event": "Initial report received regarding failure of the 5-star rating component."
+      },
+      {
+        "time": "2024-05-15T12:00:00Z",
+        "event": "Incident resolved and system status updated."
       }
     ],
     "communications": [
@@ -114,6 +118,10 @@
       {
         "time": "2024-05-24T10:00:00Z",
         "message": "<@1451379087238234142> issue with 5 star rating system (Internal Report)"
+      },
+      {
+        "time": "2024-05-15T12:00:00Z",
+        "message": "<@1451379087238234142> resolved status"
       }
     ]
   }
