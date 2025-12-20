@@ -1,17 +1,16 @@
 {
-  "status": "operational",
-  "message": "System operational, previous issue resolved.",
-  "updatedAt": "2025-12-20T05:18:42.008Z",
+  "status": "degraded",
+  "message": "A functional bug affecting specific transaction flows (drink/shaker returns) has been identified.",
+  "updatedAt": "2025-12-20T13:47:28.834Z",
   "incident": {
-    "phase": "resolved",
-    "severity": "low",
-    "impactSummary": "Previous incident resolved, full service restored.",
-    "rootCause": "Unknown (Data missing in source message)",
-    "mitigation": "Resolution implemented.",
-    "detection": "Unknown",
-    "nextUpdateAt": "2024-05-24T10:30:00Z",
+    "phase": "identified",
+    "severity": "medium",
+    "impactSummary": "Users may experience errors or incorrect results when attempting specific returns related to drink items and shakers.",
+    "rootCause": "Code defect affecting item return logic.",
+    "mitigation": "None currently; investigation into patch development is underway.",
+    "detection": "Internal developer report/testing.",
+    "nextUpdateAt": "2023-10-27T11:00:00Z",
     "actionItems": [
-      "Finalizing postmortem document",
       "Communicate user action requirement (rejoining the server).",
       "Monitor user connection and data synchronization rates.",
       "Monitor status of external Roblox API",
@@ -29,20 +28,23 @@
       "Isolate the affected code path",
       "Identify root cause",
       "Verify the scope and replication of the rating system failure.",
-      "Engage relevant engineering team to debug the ratings microservice/API."
+      "Engage relevant engineering team to debug the ratings microservice/API.",
+      "Confirm scope of affected transactions",
+      "Develop and test patch for faulty logic"
     ],
     "resolvedAt": "2025-12-20T05:18:42.008Z",
     "postmortemPlan": {
       "status": "pending",
-      "owner": "",
-      "dueDate": "",
-      "summary": "",
+      "owner": "N/A",
+      "dueDate": "N/A",
+      "summary": "Postmortem pending resolution of the incident.",
       "actionItems": []
     },
     "summary": "<@1451379087238234142> help me fill postmortem",
     "incidentId": "INC-20251219062024845",
     "affectedServices": [
-      "Unknown"
+      "Transaction Processing",
+      "Inventory Management"
     ],
     "timeline": [
       {
@@ -88,6 +90,10 @@
       {
         "time": "2024-05-15T12:00:00Z",
         "event": "Incident resolved and system status updated."
+      },
+      {
+        "time": "2023-10-27T10:00:00Z",
+        "event": "Bug identified regarding specific item (drink/shaker) return logic."
       }
     ],
     "communications": [
@@ -122,6 +128,10 @@
       {
         "time": "2024-05-15T12:00:00Z",
         "message": "<@1451379087238234142> resolved status"
+      },
+      {
+        "time": "2023-10-27T10:00:00Z",
+        "message": "identified bug regarding receiving drink back and shaker"
       }
     ]
   }
