@@ -1,18 +1,16 @@
 {
-  "status": "degraded",
-  "message": "Degraded performance affecting product delivery mechanism.",
-  "updatedAt": "2025-12-20T13:48:35.418Z",
+  "status": "maintenance",
+  "message": "Scheduled maintenance is currently underway on an internal service component.",
+  "updatedAt": "2025-12-20T20:56:19.883Z",
   "incident": {
-    "phase": "identified",
-    "severity": "high",
-    "impactSummary": "Users may not receive dispensed product (drink and shaker) after transaction.",
-    "rootCause": "Software bug affecting delivery confirmation and product return logic.",
-    "mitigation": "Engineers are analyzing the bug and preparing a patch.",
-    "detection": "Internal team identification based on system observation/reports.",
-    "nextUpdateAt": "2024-05-24T13:00:00Z",
+    "phase": "active",
+    "severity": "low",
+    "impactSummary": "Internal tooling functionality related to equipping mechanics may be intermittent. No external customer impact reported.",
+    "rootCause": "Scheduled system maintenance requirements.",
+    "mitigation": "Support teams are engaged and performing necessary maintenance procedures.",
+    "detection": "Scheduled planning and notification.",
+    "nextUpdateAt": "2024-05-20T11:00:00Z",
     "actionItems": [
-      "Investigate potential temporary data caching solutions",
-      "Monitor system stability post-rollback.",
       "Track user reporting and ensure data access is fully restored upon user rejoin.",
       "Monitor Roblox status page for resolution.",
       "Quantify total impact on downstream internal services.",
@@ -30,21 +28,22 @@
       "Develop and test patch for faulty logic",
       "Determine scope and affected units",
       "Develop and test targeted patch/hotfix",
-      "Deploy fix to affected machines"
+      "Deploy fix to affected machines",
+      "Monitor progress of equipping mechanic maintenance.",
+      "Validate system functionality post-maintenance."
     ],
     "resolvedAt": "2025-12-20T05:18:42.008Z",
     "postmortemPlan": {
       "status": "pending",
-      "owner": "",
-      "dueDate": "",
-      "summary": "",
+      "owner": "N/A",
+      "dueDate": "N/A",
+      "summary": "Standard review of maintenance procedure effectiveness.",
       "actionItems": []
     },
     "summary": "<@1451379087238234142> help me fill postmortem",
     "incidentId": "INC-20251219062024845",
     "affectedServices": [
-      "Product Delivery System",
-      "Vending Machine Interface"
+      "Shaker Equipping Mechanic"
     ],
     "timeline": [
       {
@@ -98,6 +97,10 @@
       {
         "time": "2024-05-24T12:00:00Z",
         "event": "Bug regarding product delivery mechanism identified."
+      },
+      {
+        "time": "2024-05-20T10:00:00Z",
+        "event": "Maintenance activity initiated by support teams."
       }
     ],
     "communications": [
@@ -140,6 +143,10 @@
       {
         "time": "2024-05-24T12:00:00Z",
         "message": "Identified bug regarding receiving drink and shaker back from using the machine"
+      },
+      {
+        "time": "2024-05-20T10:00:00Z",
+        "message": "maintenance on shaker equipping mechanic. support teams engage"
       }
     ]
   }
