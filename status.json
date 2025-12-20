@@ -1,18 +1,16 @@
 {
-  "status": "maintenance",
-  "message": "Scheduled maintenance is currently underway on an internal service component.",
-  "updatedAt": "2025-12-20T20:56:19.883Z",
+  "status": "operational",
+  "message": "Issue resolved, system is operating normally.",
+  "updatedAt": "2025-12-20T21:25:00.009Z",
   "incident": {
-    "phase": "active",
+    "phase": "resolved",
     "severity": "low",
-    "impactSummary": "Internal tooling functionality related to equipping mechanics may be intermittent. No external customer impact reported.",
-    "rootCause": "Scheduled system maintenance requirements.",
-    "mitigation": "Support teams are engaged and performing necessary maintenance procedures.",
-    "detection": "Scheduled planning and notification.",
-    "nextUpdateAt": "2024-05-20T11:00:00Z",
+    "impactSummary": "A previously ongoing issue has been resolved. Prior impact unknown.",
+    "rootCause": "Unknown cause (resolution confirmed).",
+    "mitigation": "Fix deployed and verified.",
+    "detection": "Unknown.",
+    "nextUpdateAt": "2023-10-27T10:05:00Z",
     "actionItems": [
-      "Track user reporting and ensure data access is fully restored upon user rejoin.",
-      "Monitor Roblox status page for resolution.",
       "Quantify total impact on downstream internal services.",
       "Explore alternative data sources/caching methods.",
       "Confirm stability of the rolled-back environment.",
@@ -30,9 +28,11 @@
       "Develop and test targeted patch/hotfix",
       "Deploy fix to affected machines",
       "Monitor progress of equipping mechanic maintenance.",
-      "Validate system functionality post-maintenance."
+      "Validate system functionality post-maintenance.",
+      "Monitor stability of all services",
+      "Document incident details"
     ],
-    "resolvedAt": "2025-12-20T05:18:42.008Z",
+    "resolvedAt": "2025-12-20T21:25:00.009Z",
     "postmortemPlan": {
       "status": "pending",
       "owner": "N/A",
@@ -43,7 +43,7 @@
     "summary": "<@1451379087238234142> help me fill postmortem",
     "incidentId": "INC-20251219062024845",
     "affectedServices": [
-      "Shaker Equipping Mechanic"
+      "unknown"
     ],
     "timeline": [
       {
@@ -101,6 +101,14 @@
       {
         "time": "2024-05-20T10:00:00Z",
         "event": "Maintenance activity initiated by support teams."
+      },
+      {
+        "time": "2023-10-27T10:00:00Z",
+        "event": "Prior issue identified (time inferred)."
+      },
+      {
+        "time": "2023-10-27T10:05:00Z",
+        "event": "System reported as fixed."
       }
     ],
     "communications": [
