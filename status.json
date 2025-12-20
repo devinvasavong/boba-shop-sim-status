@@ -1,15 +1,15 @@
 {
-  "status": "operational",
-  "message": "All systems operational and functioning normally.",
-  "updatedAt": "2025-12-19T18:27:06.233Z",
+  "status": "degraded",
+  "message": "Issue reported impacting the 5-star rating system.",
+  "updatedAt": "2025-12-20T05:18:16.292Z",
   "incident": {
-    "phase": "resolved",
-    "severity": "low",
-    "impactSummary": "No current impact reported.",
-    "rootCause": "N/A - System is currently stable.",
-    "mitigation": "Standard monitoring active.",
-    "detection": "N/A",
-    "nextUpdateAt": "2024-10-25T16:00:00Z",
+    "phase": "investigating",
+    "severity": "medium",
+    "impactSummary": "Users may be unable to submit, retrieve, or view product/service ratings.",
+    "rootCause": "unknown",
+    "mitigation": "None identified yet; investigation in progress.",
+    "detection": "user report",
+    "nextUpdateAt": "2024-05-24T10:30:00Z",
     "actionItems": [
       "Finalizing postmortem document",
       "Communicate user action requirement (rejoining the server).",
@@ -27,7 +27,9 @@
       "Develop and deploy fix for acknowledged bug.",
       "Reproduce the bug",
       "Isolate the affected code path",
-      "Identify root cause"
+      "Identify root cause",
+      "Verify the scope and replication of the rating system failure.",
+      "Engage relevant engineering team to debug the ratings microservice/API."
     ],
     "resolvedAt": "2025-12-19T18:27:06.233Z",
     "postmortemPlan": {
@@ -40,7 +42,7 @@
     "summary": "<@1451379087238234142> help me fill postmortem",
     "incidentId": "INC-20251219062024845",
     "affectedServices": [
-      "Galaxy Milk Tea Shaker"
+      "rating system"
     ],
     "timeline": [
       {
@@ -78,6 +80,10 @@
       {
         "time": "2024-07-31T15:44:00Z",
         "event": "Received confirmation message indicating incident status is 'fixed'."
+      },
+      {
+        "time": "2024-05-24T10:00:00Z",
+        "event": "Initial report received regarding failure of the 5-star rating component."
       }
     ],
     "communications": [
@@ -104,6 +110,10 @@
       {
         "time": "2024-07-30T10:00:00Z",
         "message": "investigating bug with galaxy milk tea shaker"
+      },
+      {
+        "time": "2024-05-24T10:00:00Z",
+        "message": "<@1451379087238234142> issue with 5 star rating system (Internal Report)"
       }
     ]
   }
