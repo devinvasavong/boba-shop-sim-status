@@ -1,19 +1,16 @@
 {
   "status": "degraded",
-  "message": "A functional bug affecting specific transaction flows (drink/shaker returns) has been identified.",
-  "updatedAt": "2025-12-20T13:47:28.834Z",
+  "message": "Degraded performance affecting product delivery mechanism.",
+  "updatedAt": "2025-12-20T13:48:35.418Z",
   "incident": {
     "phase": "identified",
-    "severity": "medium",
-    "impactSummary": "Users may experience errors or incorrect results when attempting specific returns related to drink items and shakers.",
-    "rootCause": "Code defect affecting item return logic.",
-    "mitigation": "None currently; investigation into patch development is underway.",
-    "detection": "Internal developer report/testing.",
-    "nextUpdateAt": "2023-10-27T11:00:00Z",
+    "severity": "high",
+    "impactSummary": "Users may not receive dispensed product (drink and shaker) after transaction.",
+    "rootCause": "Software bug affecting delivery confirmation and product return logic.",
+    "mitigation": "Engineers are analyzing the bug and preparing a patch.",
+    "detection": "Internal team identification based on system observation/reports.",
+    "nextUpdateAt": "2024-05-24T13:00:00Z",
     "actionItems": [
-      "Communicate user action requirement (rejoining the server).",
-      "Monitor user connection and data synchronization rates.",
-      "Monitor status of external Roblox API",
       "Investigate potential temporary data caching solutions",
       "Monitor system stability post-rollback.",
       "Track user reporting and ensure data access is fully restored upon user rejoin.",
@@ -30,21 +27,24 @@
       "Verify the scope and replication of the rating system failure.",
       "Engage relevant engineering team to debug the ratings microservice/API.",
       "Confirm scope of affected transactions",
-      "Develop and test patch for faulty logic"
+      "Develop and test patch for faulty logic",
+      "Determine scope and affected units",
+      "Develop and test targeted patch/hotfix",
+      "Deploy fix to affected machines"
     ],
     "resolvedAt": "2025-12-20T05:18:42.008Z",
     "postmortemPlan": {
       "status": "pending",
-      "owner": "N/A",
-      "dueDate": "N/A",
-      "summary": "Postmortem pending resolution of the incident.",
+      "owner": "",
+      "dueDate": "",
+      "summary": "",
       "actionItems": []
     },
     "summary": "<@1451379087238234142> help me fill postmortem",
     "incidentId": "INC-20251219062024845",
     "affectedServices": [
-      "Transaction Processing",
-      "Inventory Management"
+      "Product Delivery System",
+      "Vending Machine Interface"
     ],
     "timeline": [
       {
@@ -94,6 +94,10 @@
       {
         "time": "2023-10-27T10:00:00Z",
         "event": "Bug identified regarding specific item (drink/shaker) return logic."
+      },
+      {
+        "time": "2024-05-24T12:00:00Z",
+        "event": "Bug regarding product delivery mechanism identified."
       }
     ],
     "communications": [
@@ -132,6 +136,10 @@
       {
         "time": "2023-10-27T10:00:00Z",
         "message": "identified bug regarding receiving drink back and shaker"
+      },
+      {
+        "time": "2024-05-24T12:00:00Z",
+        "message": "Identified bug regarding receiving drink and shaker back from using the machine"
       }
     ]
   }
