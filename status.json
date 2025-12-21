@@ -1,18 +1,16 @@
 {
   "status": "degraded",
-  "message": "Onboarding Tutorial currently failing for new players.",
-  "updatedAt": "2025-12-21T22:25:25.329Z",
+  "message": "Tutorial system degraded, impacting new player onboarding.",
+  "updatedAt": "2025-12-21T22:56:16.090Z",
   "incident": {
-    "phase": "identified",
+    "phase": "investigating",
     "severity": "medium",
-    "impactSummary": "New players cannot complete or access the essential onboarding tutorial.",
-    "rootCause": "Identified software bug affecting tutorial progression.",
-    "mitigation": "None reported yet; investigation underway.",
-    "detection": "Internal monitoring/reporting.",
-    "nextUpdateAt": "2024-05-20T11:00:00Z",
+    "impactSummary": "New players are unable to complete or access the introductory tutorial, potentially blocking system entry.",
+    "rootCause": "Unknown. Initial investigation underway.",
+    "mitigation": "None active. Currently isolating the failing components.",
+    "detection": "User report via public channel.",
+    "nextUpdateAt": "2023-10-27T10:30:00Z",
     "actionItems": [
-      "Confirm stability of the rolled-back environment.",
-      "Monitor user rejoin rate and confirm restoration of data access.",
       "Determine root cause of mobile pouring failure.",
       "Develop and deploy fix for acknowledged bug.",
       "Reproduce the bug",
@@ -30,21 +28,23 @@
       "Monitor stability of all services",
       "Document incident details",
       "Investigate specific conditions causing tutorial failure.",
-      "Determine scope and potential workaround/hotfix."
+      "Determine scope and potential workaround/hotfix.",
+      "Verify reproduction steps and scope of affected users.",
+      "Check tutorial service logs for recent failures or deploys."
     ],
     "resolvedAt": "2025-12-20T21:25:00.009Z",
     "postmortemPlan": {
       "status": "pending",
       "owner": "",
       "dueDate": "",
-      "summary": "Plan pending incident resolution.",
+      "summary": "",
       "actionItems": []
     },
     "summary": "<@1451379087238234142> help me fill postmortem",
     "incidentId": "INC-20251219062024845",
     "affectedServices": [
-      "Tutorial",
-      "Onboarding"
+      "Tutorial System",
+      "Onboarding Flow"
     ],
     "timeline": [
       {
@@ -114,6 +114,10 @@
       {
         "time": "2024-05-20T10:00:00Z",
         "event": "Bug regarding tutorial failure for new players was identified."
+      },
+      {
+        "time": "2023-10-27T10:00:00Z",
+        "event": "Issue reported: Tutorial service failure for new players."
       }
     ],
     "communications": [
@@ -164,6 +168,10 @@
       {
         "time": "2024-05-20T10:00:00Z",
         "message": "identified bug regarding tutorial not working for new players."
+      },
+      {
+        "time": "2023-10-27T10:00:00Z",
+        "message": "Received initial report of tutorial failure for new users. Starting investigation."
       }
     ]
   }
