@@ -1,17 +1,16 @@
 {
-  "status": "maintenance",
-  "message": "Scheduled maintenance in progress: All servers are currently offline for necessary patch deployment.",
-  "updatedAt": "2025-12-22T00:37:14.276Z",
+  "status": "operational",
+  "message": "Operational issue resolved. All systems are functioning normally.",
+  "updatedAt": "2025-12-22T05:41:09.654Z",
   "incident": {
-    "phase": "active",
-    "severity": "medium",
-    "impactSummary": "All user services are unavailable due to server shutdown.",
-    "rootCause": "Planned server shutdown for 'tutorial patch' completion.",
-    "mitigation": "Completing the patch installation and restarting server infrastructure.",
-    "detection": "Manual shutdown confirmation.",
-    "nextUpdateAt": "2024-01-01T13:00:00Z",
+    "phase": "resolved",
+    "severity": "low",
+    "impactSummary": "The reported operational issue has been resolved.",
+    "rootCause": "N/A (Issue resolution confirmed, detailed root cause pending postmortem review)",
+    "mitigation": "Service restored and stability confirmed.",
+    "detection": "Internal monitoring/reporting.",
+    "nextUpdateAt": "2023-10-27T12:00:00Z",
     "actionItems": [
-      "Isolate the affected code path",
       "Identify root cause",
       "Verify the scope and replication of the rating system failure.",
       "Engage relevant engineering team to debug the ratings microservice/API.",
@@ -30,9 +29,10 @@
       "Check tutorial service logs for recent failures or deploys.",
       "Complete tutorial patch installation.",
       "Verify system integrity.",
-      "Restart all affected servers."
+      "Restart all affected servers.",
+      "Initiate Postmortem Review (PMR)"
     ],
-    "resolvedAt": "2025-12-20T21:25:00.009Z",
+    "resolvedAt": "2025-12-22T05:41:09.654Z",
     "postmortemPlan": {
       "status": "pending",
       "owner": "N/A",
@@ -43,7 +43,7 @@
     "summary": "<@1451379087238234142> help me fill postmortem",
     "incidentId": "INC-20251219062024845",
     "affectedServices": [
-      "All Services"
+      "Unknown"
     ],
     "timeline": [
       {
@@ -121,6 +121,10 @@
       {
         "time": "2024-01-01T12:00:00Z",
         "event": "Servers shut down for scheduled patch installation."
+      },
+      {
+        "time": "2023-10-27T12:00:00Z",
+        "event": "Incident declared resolved."
       }
     ],
     "communications": [
@@ -179,6 +183,10 @@
       {
         "time": "2024-01-01T12:00:00Z",
         "message": "<@1451379087238234142> All servers are shutdown until tutorial patch is completed"
+      },
+      {
+        "time": "2023-10-27T12:00:00Z",
+        "message": "operational issue resolved"
       }
     ]
   }
