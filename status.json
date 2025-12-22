@@ -1,19 +1,16 @@
 {
-  "status": "degraded",
-  "message": "Tutorial system degraded, impacting new player onboarding.",
-  "updatedAt": "2025-12-21T22:56:16.090Z",
+  "status": "maintenance",
+  "message": "Scheduled maintenance in progress: All servers are currently offline for necessary patch deployment.",
+  "updatedAt": "2025-12-22T00:37:14.276Z",
   "incident": {
-    "phase": "investigating",
+    "phase": "active",
     "severity": "medium",
-    "impactSummary": "New players are unable to complete or access the introductory tutorial, potentially blocking system entry.",
-    "rootCause": "Unknown. Initial investigation underway.",
-    "mitigation": "None active. Currently isolating the failing components.",
-    "detection": "User report via public channel.",
-    "nextUpdateAt": "2023-10-27T10:30:00Z",
+    "impactSummary": "All user services are unavailable due to server shutdown.",
+    "rootCause": "Planned server shutdown for 'tutorial patch' completion.",
+    "mitigation": "Completing the patch installation and restarting server infrastructure.",
+    "detection": "Manual shutdown confirmation.",
+    "nextUpdateAt": "2024-01-01T13:00:00Z",
     "actionItems": [
-      "Determine root cause of mobile pouring failure.",
-      "Develop and deploy fix for acknowledged bug.",
-      "Reproduce the bug",
       "Isolate the affected code path",
       "Identify root cause",
       "Verify the scope and replication of the rating system failure.",
@@ -30,21 +27,23 @@
       "Investigate specific conditions causing tutorial failure.",
       "Determine scope and potential workaround/hotfix.",
       "Verify reproduction steps and scope of affected users.",
-      "Check tutorial service logs for recent failures or deploys."
+      "Check tutorial service logs for recent failures or deploys.",
+      "Complete tutorial patch installation.",
+      "Verify system integrity.",
+      "Restart all affected servers."
     ],
     "resolvedAt": "2025-12-20T21:25:00.009Z",
     "postmortemPlan": {
       "status": "pending",
-      "owner": "",
-      "dueDate": "",
-      "summary": "",
+      "owner": "N/A",
+      "dueDate": "N/A",
+      "summary": "Standard review of maintenance window execution and duration.",
       "actionItems": []
     },
     "summary": "<@1451379087238234142> help me fill postmortem",
     "incidentId": "INC-20251219062024845",
     "affectedServices": [
-      "Tutorial System",
-      "Onboarding Flow"
+      "All Services"
     ],
     "timeline": [
       {
@@ -118,6 +117,10 @@
       {
         "time": "2023-10-27T10:00:00Z",
         "event": "Issue reported: Tutorial service failure for new players."
+      },
+      {
+        "time": "2024-01-01T12:00:00Z",
+        "event": "Servers shut down for scheduled patch installation."
       }
     ],
     "communications": [
@@ -172,6 +175,10 @@
       {
         "time": "2023-10-27T10:00:00Z",
         "message": "Received initial report of tutorial failure for new users. Starting investigation."
+      },
+      {
+        "time": "2024-01-01T12:00:00Z",
+        "message": "<@1451379087238234142> All servers are shutdown until tutorial patch is completed"
       }
     ]
   }
