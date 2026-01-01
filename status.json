@@ -1,15 +1,15 @@
 {
   "status": "operational",
-  "message": "Operational issue resolved. All systems are functioning normally.",
-  "updatedAt": "2025-12-22T05:41:09.654Z",
+  "message": "System operational. Promotional content rotation is scheduled to conclude in two hours.",
+  "updatedAt": "2026-01-01T03:22:22.586Z",
   "incident": {
     "phase": "resolved",
     "severity": "low",
-    "impactSummary": "The reported operational issue has been resolved.",
-    "rootCause": "N/A (Issue resolution confirmed, detailed root cause pending postmortem review)",
-    "mitigation": "Service restored and stability confirmed.",
-    "detection": "Internal monitoring/reporting.",
-    "nextUpdateAt": "2023-10-27T12:00:00Z",
+    "impactSummary": "None. This message refers to planned content rotation (removal of items from purchase).",
+    "rootCause": "Planned content rotation schedule.",
+    "mitigation": "Not applicable.",
+    "detection": "Not applicable.",
+    "nextUpdateAt": "1970-01-01T00:00:00Z",
     "actionItems": [
       "Identify root cause",
       "Verify the scope and replication of the rating system failure.",
@@ -34,10 +34,10 @@
     ],
     "resolvedAt": "2025-12-22T05:41:09.654Z",
     "postmortemPlan": {
-      "status": "pending",
-      "owner": "N/A",
-      "dueDate": "N/A",
-      "summary": "Standard review of maintenance window execution and duration.",
+      "status": "complete",
+      "owner": "",
+      "dueDate": "1970-01-01T00:00:00Z",
+      "summary": "This was a standard promotional announcement, not an incident.",
       "actionItems": []
     },
     "summary": "<@1451379087238234142> help me fill postmortem",
