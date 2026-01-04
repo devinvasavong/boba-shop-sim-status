@@ -1,2 +1,35 @@
 {
+  "latest": "1.4.2",
+  "releases": [
+    {
+      "version": "1.4.2",
+      "date": "2026-01-03",
+      "type": "update",
+      "entries": [
+        "Added Winter Event drinks",
+        "Improved NPC pathing",
+        "Fixed shaker duplication bug",
+        "UI performance improvements"
+      ]
+    },
+    {
+      "version": "1.4.1",
+      "date": "2025-12-20",
+      "type": "hotfix",
+      "entries": [
+        "Fixed inventory duplication issue",
+        "Resolved server crash on shutdown"
+      ]
+    },
+    {
+      "version": "1.4.0",
+      "date": "2025-12-10",
+      "type": "feature",
+      "entries": [
+        "Introduced VIP customers",
+        "Added daily rewards system",
+        "New tea brewing animations"
+      ]
+    }
+  ]
 }
