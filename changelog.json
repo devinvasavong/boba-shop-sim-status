@@ -1,35 +1,15 @@
 {
-  "latest": "1.4.2",
+  "latest": "1.1.15-beta",
   "releases": [
     {
-      "version": "1.4.2",
-      "date": "2026-01-03",
+      "version": "1.1.15-beta",
+      "date": "2026-01-01",
       "type": "update",
       "entries": [
-        "Added Winter Event drinks",
-        "Improved NPC pathing",
-        "Fixed shaker duplication bug",
-        "UI performance improvements"
+        "Removed winter overlay",
+        "Patched bug (potentially) for claiming HONEYMATCHA code",
+        "Removed holiday playlist"
       ]
     },
-    {
-      "version": "1.4.1",
-      "date": "2025-12-20",
-      "type": "hotfix",
-      "entries": [
-        "Fixed inventory duplication issue",
-        "Resolved server crash on shutdown"
-      ]
-    },
-    {
-      "version": "1.4.0",
-      "date": "2025-12-10",
-      "type": "feature",
-      "entries": [
-        "Introduced VIP customers",
-        "Added daily rewards system",
-        "New tea brewing animations"
-      ]
-    }
   ]
 }
