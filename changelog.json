@@ -1,18 +1,15 @@
 {
-  "latest": "",
-  "releases": [],
-  "updates": [
+  "latest": "1.1.15-beta",
+  "releases": [
     {
-      "version": "1.15.3",
-      "title": "Update Release",
-      "description": "Hi, Bye, Goodbye",
-      "changes": [
-        "Hi",
-        "Bye",
-        "Goodbye"
-      ],
-      "date": "2026-01-09T01:51:00.676Z",
-      "author": "dddevv"
-    }
+      "version": "1.1.15-beta",
+      "date": "2026-01-01",
+      "type": "update",
+      "entries": [
+        "Removed winter overlay",
+        "Patched bug (potentially) for claiming HONEYMATCHA code",
+        "Removed holiday playlist"
+      ]
+    },
   ]
 }
