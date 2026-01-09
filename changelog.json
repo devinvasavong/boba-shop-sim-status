@@ -1,6 +1,15 @@
 {
-  "latest": "1.1.16",
+  "latest": "1.0.0",
   "releases": [
+    {
+      "version": "1.0.0",
+      "date": "2026-01-09",
+      "type": "update",
+      "entries": [
+        "Official release of our game",
+        "Introduced new theme: City 🏙️"
+      ]
+    },
     {
       "version": "1.1.15-beta",
       "date": "2026-01-01",
