@@ -1,17 +1,16 @@
 {
   "status": "degraded",
   "message": "Issue identified with drink creation functionality.",
-  "updatedAt": "2026-02-21T03:13:34.192Z",
+  "updatedAt": "2026-02-21T18:07:12.573Z",
   "incident": {
     "phase": "identified",
     "severity": "medium",
-    "impactSummary": "Users may encounter errors or unexpected behavior when attempting to create new drinks.",
-    "rootCause": "Software bug in the drink creation logic.",
-    "mitigation": "Engineering team is working on a hotfix for the identified issue.",
+    "impactSummary": "Unknown",
+    "rootCause": "Unknown",
+    "mitigation": "Partial patch applied (semi-patched)",
     "detection": "Internal report/User notification",
     "nextUpdateAt": "2023-10-27T16:30:00Z",
     "actionItems": [
-      "Confirm scope of affected transactions",
       "Develop and test patch for faulty logic",
       "Determine scope and affected units",
       "Develop and test targeted patch/hotfix",
@@ -30,7 +29,8 @@
       "Initiate Postmortem Review (PMR)",
       "Develop and test code fix",
       "Deploy hotfix to production",
-      "Validate drink creation workflow post-deployment"
+      "Validate drink creation workflow post-deployment",
+      "Finalize and deploy full patch"
     ],
     "resolvedAt": "2025-12-22T05:41:09.654Z",
     "postmortemPlan": {
@@ -49,10 +49,6 @@
       "Drink Creation Service"
     ],
     "timeline": [
-      {
-        "time": "2024-05-15T10:00:00Z",
-        "event": "Confirmed root cause: External Roblox API down, preventing data access."
-      },
       {
         "time": "2023-10-27T10:00:00Z",
         "event": "Rollback pushed and completed following a fix."
@@ -128,6 +124,10 @@
       {
         "time": "2023-10-27T14:30:00Z",
         "event": "Bug identified in drink creation process."
+      },
+      {
+        "time": "2023-10-27T15:00:00Z",
+        "event": "Status updated to semi-patched"
       }
     ],
     "communications": [
