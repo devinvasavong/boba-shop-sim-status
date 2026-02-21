@@ -1,14 +1,14 @@
 {
-  "status": "degraded",
-  "message": "Issue identified with drink creation functionality.",
-  "updatedAt": "2026-02-21T18:07:12.573Z",
+  "status": "operational",
+  "message": "The reported issue has been resolved.",
+  "updatedAt": "2026-02-21T19:38:56.898Z",
   "incident": {
-    "phase": "identified",
-    "severity": "medium",
-    "impactSummary": "Unknown",
+    "phase": "resolved",
+    "severity": "low",
+    "impactSummary": "A previously reported issue has been fixed.",
     "rootCause": "Unknown",
-    "mitigation": "Partial patch applied (semi-patched)",
-    "detection": "Internal report/User notification",
+    "mitigation": "Corrective action applied",
+    "detection": "User report",
     "nextUpdateAt": "2023-10-27T16:30:00Z",
     "actionItems": [
       "Develop and test patch for faulty logic",
@@ -32,7 +32,7 @@
       "Validate drink creation workflow post-deployment",
       "Finalize and deploy full patch"
     ],
-    "resolvedAt": "2025-12-22T05:41:09.654Z",
+    "resolvedAt": "2026-02-21T19:38:56.898Z",
     "postmortemPlan": {
       "status": "pending",
       "owner": "Engineering Lead",
@@ -46,13 +46,9 @@
     "summary": "<@1451379087238234142> help me fill postmortem",
     "incidentId": "INC-20251219062024845",
     "affectedServices": [
-      "Drink Creation Service"
+      "Unspecified"
     ],
     "timeline": [
-      {
-        "time": "2023-10-27T10:00:00Z",
-        "event": "Rollback pushed and completed following a fix."
-      },
       {
         "time": "2024-05-27T10:00:00Z",
         "event": "Report received that Roblox API dependency was unavailable."
@@ -128,6 +124,10 @@
       {
         "time": "2023-10-27T15:00:00Z",
         "event": "Status updated to semi-patched"
+      },
+      {
+        "time": "2023-10-27T12:00:00Z",
+        "event": "Issue reported fixed"
       }
     ],
     "communications": [
@@ -194,6 +194,10 @@
       {
         "time": "2023-10-27T14:35:00Z",
         "message": "We are aware of a bug affecting drink creation and have identified the cause. Our team is working on a resolution."
+      },
+      {
+        "time": "2023-10-27T12:00:00Z",
+        "message": "fixed"
       }
     ]
   }
