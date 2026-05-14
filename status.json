@@ -1,18 +1,16 @@
 {
   "status": "operational",
-  "message": "The reported issue has been resolved.",
-  "updatedAt": "2026-02-21T19:38:56.898Z",
+  "message": "All systems operational. V1 launch is scheduled for tomorrow at 12 AM.",
+  "updatedAt": "2026-05-14T23:41:07.703Z",
   "incident": {
     "phase": "resolved",
     "severity": "low",
-    "impactSummary": "A previously reported issue has been fixed.",
-    "rootCause": "Unknown",
-    "mitigation": "Corrective action applied",
-    "detection": "User report",
-    "nextUpdateAt": "2023-10-27T16:30:00Z",
+    "impactSummary": "Planned version 1.0 release including a new map and features.",
+    "rootCause": "Scheduled product launch",
+    "mitigation": "N/A",
+    "detection": "External announcement",
+    "nextUpdateAt": "2024-05-23T00:00:00Z",
     "actionItems": [
-      "Develop and test patch for faulty logic",
-      "Determine scope and affected units",
       "Develop and test targeted patch/hotfix",
       "Deploy fix to affected machines",
       "Monitor progress of equipping mechanic maintenance.",
@@ -30,29 +28,25 @@
       "Develop and test code fix",
       "Deploy hotfix to production",
       "Validate drink creation workflow post-deployment",
-      "Finalize and deploy full patch"
+      "Finalize and deploy full patch",
+      "Coordinate server capacity for launch",
+      "Finalize deployment of new map assets"
     ],
     "resolvedAt": "2026-02-21T19:38:56.898Z",
     "postmortemPlan": {
       "status": "pending",
-      "owner": "Engineering Lead",
-      "dueDate": "2023-11-03T17:00:00Z",
-      "summary": "Review the root cause of the drink creation bug and implement regression testing.",
-      "actionItems": [
-        "Add unit tests for the affected logic",
-        "Review deployment validation procedures"
-      ]
+      "owner": "Release Engineering Team",
+      "dueDate": "2024-05-25T00:00:00Z",
+      "summary": "Review of V1 launch stability and player feedback.",
+      "actionItems": []
     },
     "summary": "<@1451379087238234142> help me fill postmortem",
     "incidentId": "INC-20251219062024845",
     "affectedServices": [
-      "Unspecified"
+      "V1 Map",
+      "Game Features"
     ],
     "timeline": [
-      {
-        "time": "2024-05-27T10:00:00Z",
-        "event": "Report received that Roblox API dependency was unavailable."
-      },
       {
         "time": "2023-10-27T10:00:00Z",
         "event": "Rollback procedure initiated and completed."
@@ -128,6 +122,10 @@
       {
         "time": "2023-10-27T12:00:00Z",
         "event": "Issue reported fixed"
+      },
+      {
+        "time": "2024-05-22T00:00:00Z",
+        "event": "Launch announcement released to community."
       }
     ],
     "communications": [
@@ -198,6 +196,10 @@
       {
         "time": "2023-10-27T12:00:00Z",
         "message": "fixed"
+      },
+      {
+        "time": "2024-05-22T00:00:00Z",
+        "message": "@everyone V1 launch is at launching tomorrow at 12 AM! Check out our new map with some new features."
       }
     ]
   }
