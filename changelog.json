@@ -1,6 +1,25 @@
 {
-  "latest": "1.0.0",
+  "latest": "1.1.0",
   "releases": [
+    {
+      "version": "1.1.0",
+      "date": "2026-10-26",
+      "type": "update",
+      "entries": [
+        "🎃 Halloween event is live until November 3rd!",
+        "🍹 Three new recipes in the shop: Pumpkin Spice Latte, Vampire's Kiss and Ghost Milk Tea",
+        "🧙 A new secret recipe is hiding somewhere — brew it before the event ends",
+        "🧊 Customers now order ice. Some want it, some refuse it, so check the ticket",
+        "🧋 Customers can now ask for tapioca pearls",
+        "📋 Menu expanded from 16 to 41 drinks, including White Milk Tea and Vanilla Milk Tea",
+        "🍦 Vanilla powder now shows up in customer orders",
+        "❄️ Winter recipes are now properly out of season and return December 1st",
+        "🎄 Gingerbread Milk Tea, North Pole Peppermint Latte and Golden Countdown will be back this winter",
+        "Fixed customers rejecting a correct drink if you owned a secret recipe made from the same ingredients",
+        "Fixed secret recipes not being added to your collection when you discovered them",
+        "Secret recipe orders now appear based on how rare each recipe is"
+      ]
+    },
     {
       "version": "1.0.0",
       "date": "2026-01-09",
