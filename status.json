@@ -1,19 +1,16 @@
 {
-  "status": "operational",
-  "message": "Service is reported operational.",
-  "updatedAt": "2026-10-28T17:38:11.695Z",
+  "status": "degraded",
+  "message": "Database issues are reported; impact and scope are being investigated.",
+  "updatedAt": "2026-10-28T17:40:22.776Z",
   "incident": {
-    "phase": "resolved",
-    "severity": "low",
-    "impactSummary": "No ongoing impact reported.",
-    "rootCause": "Not provided.",
-    "mitigation": "Not provided.",
-    "detection": "Status reported as operational.",
-    "nextUpdateAt": "2026-01-01T00:00:00Z",
+    "phase": "investigating",
+    "severity": "medium",
+    "impactSummary": "Database-related issues have been reported; specific user impact is unknown.",
+    "rootCause": "Unknown; investigation pending.",
+    "mitigation": "No mitigation reported.",
+    "detection": "User report.",
+    "nextUpdateAt": "2026-04-04T00:00:00Z",
     "actionItems": [
-      "Validate system functionality post-maintenance.",
-      "Monitor stability of all services",
-      "Document incident details",
       "Investigate specific conditions causing tutorial failure.",
       "Determine scope and potential workaround/hotfix.",
       "Verify reproduction steps and scope of affected users.",
@@ -30,25 +27,25 @@
       "Finalize deployment of new map assets",
       "Identify the bugs and affected services",
       "Assess user impact",
-      "Resolve and verify fixes"
+      "Resolve and verify fixes",
+      "Investigate database health and scope of impact",
+      "Identify root cause and apply mitigation",
+      "Provide an update when more information is available"
     ],
     "resolvedAt": "2026-10-28T17:38:11.695Z",
     "postmortemPlan": {
       "status": "pending",
       "owner": "Unassigned",
-      "dueDate": "2026-01-01T00:00:00Z",
-      "summary": "Review the bugs and document causes and corrective actions after resolution.",
+      "dueDate": "2026-04-11T00:00:00Z",
+      "summary": "Prepare a postmortem if the report is confirmed as an incident.",
       "actionItems": [
-        "Assign an owner",
-        "Document root causes",
-        "Track preventive actions"
+        "Document impact, timeline, root cause, and corrective actions"
       ]
     },
     "summary": "<@1451379087238234142> help me fill postmortem",
     "incidentId": "INC-20251219062024845",
     "affectedServices": [
-      "V1 Map",
-      "Game Features"
+      "Database-dependent services (unconfirmed)"
     ],
     "timeline": [
       {
