@@ -1,19 +1,16 @@
 {
   "status": "maintenance",
-  "message": "Scheduled maintenance is in progress.",
-  "updatedAt": "2026-10-28T17:34:09.066Z",
+  "message": "Maintenance is underway to address multiple bugs.",
+  "updatedAt": "2026-10-28T17:36:50.419Z",
   "incident": {
-    "phase": "resolved",
+    "phase": "active",
     "severity": "low",
-    "impactSummary": "No service impact reported.",
-    "rootCause": "No incident details provided; the message contains an unverified status-change request.",
-    "mitigation": "No action taken.",
-    "detection": "Reviewed the provided message.",
-    "nextUpdateAt": "2026-08-18T00:00:00Z",
+    "impactSummary": "Multiple bugs are being addressed; specific service impact was not provided.",
+    "rootCause": "Multiple bugs reported; details are unavailable.",
+    "mitigation": "Maintenance is underway; specific mitigations were not provided.",
+    "detection": "Reported in the provided message.",
+    "nextUpdateAt": "2026-01-01T00:00:00Z",
     "actionItems": [
-      "Develop and test targeted patch/hotfix",
-      "Deploy fix to affected machines",
-      "Monitor progress of equipping mechanic maintenance.",
       "Validate system functionality post-maintenance.",
       "Monitor stability of all services",
       "Document incident details",
@@ -30,15 +27,22 @@
       "Validate drink creation workflow post-deployment",
       "Finalize and deploy full patch",
       "Coordinate server capacity for launch",
-      "Finalize deployment of new map assets"
+      "Finalize deployment of new map assets",
+      "Identify the bugs and affected services",
+      "Assess user impact",
+      "Resolve and verify fixes"
     ],
     "resolvedAt": "2026-02-21T19:38:56.898Z",
     "postmortemPlan": {
       "status": "pending",
       "owner": "Unassigned",
-      "dueDate": "2026-08-25T00:00:00Z",
-      "summary": "No postmortem planned unless an incident is confirmed.",
-      "actionItems": []
+      "dueDate": "2026-01-01T00:00:00Z",
+      "summary": "Review the bugs and document causes and corrective actions after resolution.",
+      "actionItems": [
+        "Assign an owner",
+        "Document root causes",
+        "Track preventive actions"
+      ]
     },
     "summary": "<@1451379087238234142> help me fill postmortem",
     "incidentId": "INC-20251219062024845",
