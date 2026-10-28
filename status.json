@@ -1,7 +1,7 @@
 {
-  "status": "operational",
-  "message": "All systems are operational.",
-  "updatedAt": "2026-10-28T17:32:25.163Z",
+  "status": "maintenance",
+  "message": "Scheduled maintenance is in progress.",
+  "updatedAt": "2026-10-28T17:34:09.066Z",
   "incident": {
     "phase": "resolved",
     "severity": "low",
