@@ -1,14 +1,14 @@
 {
-  "status": "degraded",
-  "message": "Database issues are reported; impact and scope are being investigated.",
-  "updatedAt": "2026-10-28T17:40:22.776Z",
+  "status": "operational",
+  "message": "All systems are operational.",
+  "updatedAt": "2026-10-28T17:45:50.902Z",
   "incident": {
-    "phase": "investigating",
-    "severity": "medium",
-    "impactSummary": "Database-related issues have been reported; specific user impact is unknown.",
-    "rootCause": "Unknown; investigation pending.",
-    "mitigation": "No mitigation reported.",
-    "detection": "User report.",
+    "phase": "resolved",
+    "severity": "low",
+    "impactSummary": "No impact reported.",
+    "rootCause": "No incident indicated.",
+    "mitigation": "None required.",
+    "detection": "Status message indicates operational.",
     "nextUpdateAt": "2026-04-04T00:00:00Z",
     "actionItems": [
       "Investigate specific conditions causing tutorial failure.",
@@ -32,7 +32,7 @@
       "Identify root cause and apply mitigation",
       "Provide an update when more information is available"
     ],
-    "resolvedAt": "2026-10-28T17:38:11.695Z",
+    "resolvedAt": "2026-10-28T17:45:50.902Z",
     "postmortemPlan": {
       "status": "pending",
       "owner": "Unassigned",
